@@ -1,0 +1,1645 @@
+# Copyright (C) 2026 Shohel Hossain
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: VMS Elements Multi Mailer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://vmsuniverse.com\n"
+"POT-Creation-Date: 2026-08-20 20:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: vms-elements-multiple-smtp-email-gateway\n"
+
+#: includes/class-vms-msg-alerts.php:82
+msgid "%1$d email failures occurred in the last hour (threshold: %2$d).\n\nReview Email Logs in VMS Multi Mailer.\n\nSite: %3$s"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:41
+msgid "%d account(s) found."
+msgstr ""
+
+#: admin/views/accounts.php:33
+msgid "%d built-in PHPMailer SMTP gateways — pick one, or use Other SMTP for any custom host."
+msgstr ""
+
+#: admin/views/logs.php:109
+msgid "%d log entry"
+msgstr ""
+
+#: includes/class-vms-msg-mailer.php:275
+msgid "(failover after send failure)"
+msgstr ""
+
+#: includes/class-vms-msg-mailer.php:375
+msgid "(fallback after daily limit)"
+msgstr ""
+
+#: admin/views/accounts.php:184
+msgid "0 = not in the chain. Lower numbers are tried first when another account hits its daily limit (1 before 2, etc.)."
+msgstr ""
+
+#: admin/views/accounts.php:177
+msgid "0 = unlimited. When reached, the ordered fallback chain is tried, then the global default; otherwise the send fails and is logged."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:198
+msgid "A valid sender email is required."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:55
+msgid "AOL Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:55
+msgid "AOL app password"
+msgstr ""
+
+#: admin/views/dashboard.php:50
+#: admin/views/dashboard.php:76
+#: admin/views/logs.php:63
+msgid "Account"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:37
+#: includes/class-vms-msg-providers.php:44
+msgid "Account email (auto-filled from sender)"
+msgstr ""
+
+#: admin/views/accounts.php:75
+msgid "Account name"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:195
+msgid "Account name is required."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:48
+#: includes/class-vms-msg-providers.php:49
+msgid "Account password or app password"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:138
+msgid "Accounts and logs tables exist."
+msgstr ""
+
+#: admin/views/accounts.php:220
+#: admin/views/logs.php:128
+msgid "Actions"
+msgstr ""
+
+#: admin/views/settings.php:78
+msgid "Active until %s."
+msgstr ""
+
+#: admin/views/accounts.php:16
+msgid "Add SMTP account"
+msgstr ""
+
+#: admin/views/accounts.php:198
+msgid "Add account"
+msgstr ""
+
+#: admin/views/settings.php:225
+msgid "Add an SMTP account and set one as Global default."
+msgstr ""
+
+#: admin/views/settings.php:112
+msgid "Alert email"
+msgstr ""
+
+#: admin/views/logs.php:65
+msgid "All accounts"
+msgstr ""
+
+#: admin/views/logs.php:57
+msgid "All statuses"
+msgstr ""
+
+#: admin/views/settings.php:173
+msgid "Also send a live test email via the global default account"
+msgstr ""
+
+#: admin/views/accounts.php:169
+msgid "Always set From to this account’s sender email (recommended for provider compliance)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:33
+msgid "Always “SMTP_Injection”"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:29
+msgid "Always “api_token”"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:26
+msgid "Always “apikey”"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:35
+msgid "Always “resend”"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:30
+msgid "Always “tosend”"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:25
+msgid "Amazon SES"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:220
+msgid "Another SMTP account already uses this sender email."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:38
+msgid "Any username (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:47
+msgid "App password (not your normal login)"
+msgstr ""
+
+#: admin/views/logs.php:102
+msgid "Apply"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:172
+msgid "Australia (smtp.zoho.com.au)"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "Automatically delete email logs older than this many days. Use 0 to keep logs forever. Runs daily via WP-Cron."
+msgstr ""
+
+#: admin/views/settings.php:98
+msgid "Background mail queue"
+msgstr ""
+
+#: admin/views/settings.php:105
+msgid "Batch size"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:31
+msgid "Brevo (Sendinblue)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:31
+msgid "Brevo SMTP key"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:31
+msgid "Brevo login email (auto-filled from sender when possible)"
+msgstr ""
+
+#: admin/views/logs.php:98
+msgid "Bulk actions"
+msgstr ""
+
+#: admin/views/settings.php:108
+msgid "Callers return immediately; delivery happens in the background. Test/resend emails bypass the queue."
+msgstr ""
+
+#: admin/views/page-footer.php:32
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/accounts.php:200
+msgid "Cancel edit"
+msgstr ""
+
+#: admin/views/settings.php:71
+msgid "Capture PHPMailer SMTP conversation (auto-off after 1 hour)"
+msgstr ""
+
+#: admin/views/accounts.php:286
+msgid "Check health"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:114
+msgid "Checking…"
+msgstr ""
+
+#: admin/views/page-footer.php:21
+msgid "Choose which SMTP provider should send this message. Routing by From address is skipped for this resend."
+msgstr ""
+
+#: admin/views/settings.php:203
+msgid "Clear debug log"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:111
+#: admin/views/page-footer.php:18
+msgid "Close"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:29
+msgid "Cloudflare API token (Email Sending: Edit)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:29
+msgid "Cloudflare Email"
+msgstr ""
+
+#: admin/views/accounts.php:206
+msgid "Configured accounts"
+msgstr ""
+
+#: admin/views/settings.php:229
+msgid "Confirm the result under Email Logs (Sent / Failed)."
+msgstr ""
+
+#: admin/views/settings.php:46
+msgid "Controls how much of the email body is stored for resend and auditing."
+msgstr ""
+
+#: includes/class-vms-msg-import-export.php:57
+msgid "Could not build export."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:366
+msgid "Could not decrypt SMTP password. Re-save the account password."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:285
+msgid "Could not delete log entry."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:244
+#: includes/class-vms-msg-accounts.php:268
+msgid "Could not encrypt SMTP password."
+msgstr ""
+
+#: admin/views/dashboard.php:52
+msgid "Daily limit"
+msgstr ""
+
+#: admin/views/accounts.php:174
+msgid "Daily send limit"
+msgstr ""
+
+#: includes/class-vms-msg-mailer.php:228
+msgid "Daily send limit reached for “%1$s” (%2$d) and no fallback account is available."
+msgstr ""
+
+#: admin/views/page-header.php:27
+msgid "Dashboard"
+msgstr ""
+
+#: admin/views/logs.php:122
+msgid "Date"
+msgstr ""
+
+#: admin/views/accounts.php:219
+#: admin/views/accounts.php:277
+msgid "Default"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:272
+msgid "Default SMTP account updated."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:64
+msgid "Default account health"
+msgstr ""
+
+#: admin/views/accounts.php:297
+#: admin/views/logs.php:164
+msgid "Delete"
+msgstr ""
+
+#: admin/views/logs.php:100
+msgid "Delete all failed (matching filters)"
+msgstr ""
+
+#: admin/views/logs.php:99
+msgid "Delete selected"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:104
+#: admin/views/accounts.php:296
+msgid "Delete this SMTP account?"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:105
+#: admin/views/logs.php:163
+msgid "Delete this log entry?"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:379
+msgid "Deleted %d failed log entries."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:359
+msgid "Deleted %d log entries."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:62
+msgid "DreamHost"
+msgstr ""
+
+#: admin/views/accounts.php:285
+msgid "Edit"
+msgstr ""
+
+#: admin/views/accounts.php:15
+msgid "Edit SMTP account"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:37
+msgid "Elastic Email"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:37
+msgid "Elastic Email password / API"
+msgstr ""
+
+#: admin/views/page-header.php:33
+msgid "Email Logs"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:184
+msgid "Email Testing / Sandbox (sandbox.smtp.mailtrap.io)"
+msgstr ""
+
+#: admin/views/dashboard.php:14
+msgid "Email analytics"
+msgstr ""
+
+#: admin/views/accounts.php:44
+msgid "Email gateway (PHPMailer SMTP)"
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:35
+msgid "Email log entry not found."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:576
+msgid "Email resent successfully. A new log entry was created."
+msgstr ""
+
+#: admin/views/settings.php:123
+msgid "Email when an SMTP health check fails (max once per account per day)"
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Email when failed sends in the last hour exceed the threshold"
+msgstr ""
+
+#: admin/views/settings.php:226
+msgid "Enable Force From for provider accounts that require a verified sender."
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid "Enable only while troubleshooting. Debug output may include sensitive SMTP details."
+msgstr ""
+
+#: admin/views/accounts.php:67
+#: admin/views/accounts.php:134
+msgid "Encryption"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:69
+msgid "Enter host, port, encryption, username, and password manually."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:110
+msgid "Error"
+msgstr ""
+
+#: admin/views/logs.php:127
+msgid "Error reason"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:158
+msgid "Europe (smtp.eu.mailgun.org)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:170
+msgid "Europe (smtp.zoho.eu)"
+msgstr ""
+
+#: includes/class-vms-msg-queue.php:72
+msgid "Every minute (VMS Multi Mailer)"
+msgstr ""
+
+#: admin/views/logs.php:84
+msgid "Export CSV"
+msgstr ""
+
+#: admin/views/accounts.php:308
+msgid "Export JSON without passwords. After import, edit each account and set the SMTP password again."
+msgstr ""
+
+#: admin/views/accounts.php:311
+msgid "Export accounts (JSON)"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:116
+#: admin/views/accounts.php:267
+#: admin/views/logs.php:59
+#: admin/views/logs.php:149
+msgid "Failed"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:280
+msgid "Failed to create SMTP account."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:317
+msgid "Failed to delete SMTP account."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:252
+msgid "Failed to update SMTP account."
+msgstr ""
+
+#: admin/views/dashboard.php:22
+msgid "Failed today"
+msgstr ""
+
+#: admin/views/settings.php:89
+msgid "Failure failover"
+msgstr ""
+
+#: admin/views/settings.php:128
+msgid "Failure spike alerts"
+msgstr ""
+
+#: admin/views/dashboard.php:77
+msgid "Failures"
+msgstr ""
+
+#: admin/views/accounts.php:217
+msgid "Fallback"
+msgstr ""
+
+#: admin/views/accounts.php:181
+msgid "Fallback priority"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:52
+msgid "Fastmail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:52
+msgid "Fastmail app password"
+msgstr ""
+
+#: admin/views/logs.php:83
+msgid "Filter"
+msgstr ""
+
+#: admin/views/accounts.php:70
+msgid "For mapped gateways you normally only enter SMTP username and/or password. Host, port, and encryption are set automatically."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:163
+#: admin/class-vms-msg-admin.php:588
+msgid "Forbidden."
+msgstr ""
+
+#: admin/views/accounts.php:242
+msgid "Force From"
+msgstr ""
+
+#: admin/views/accounts.php:165
+msgid "Force From email"
+msgstr ""
+
+#: admin/views/logs.php:72
+msgid "From date"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:56
+msgid "GMX Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:56
+msgid "GMX password"
+msgstr ""
+
+#: admin/views/accounts.php:213
+msgid "Gateway"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:43
+msgid "GetResponse"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:43
+msgid "GetResponse SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:43
+msgid "GetResponse SMTP username"
+msgstr ""
+
+#: admin/views/accounts.php:188
+msgid "Global default"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:47
+msgid "Global default account"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:47
+msgid "Gmail / Google Workspace"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:64
+msgid "GoDaddy"
+msgstr ""
+
+#: admin/views/accounts.php:218
+msgid "Health"
+msgstr ""
+
+#: admin/views/settings.php:119
+msgid "Health failure alerts"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:115
+#: admin/views/accounts.php:265
+msgid "Healthy"
+msgstr ""
+
+#: admin/views/accounts.php:65
+msgid "Host"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:59
+msgid "Hostinger Email"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:63
+msgid "IONOS"
+msgstr ""
+
+#: admin/views/accounts.php:307
+msgid "Import / export accounts"
+msgstr ""
+
+#: admin/views/accounts.php:320
+msgid "Import accounts"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:420
+msgid "Import finished: %1$d imported, %2$d skipped. Re-enter SMTP passwords on imported accounts."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:66
+msgid "ImprovMX"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:66
+msgid "ImprovMX SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:66
+msgid "ImprovMX SMTP username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:171
+msgid "India (smtp.zoho.in)"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:414
+msgid "Invalid JSON import file."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:361
+msgid "Invalid SMTP account."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:307
+#: includes/class-vms-msg-accounts.php:343
+#: includes/class-vms-msg-resend.php:81
+msgid "Invalid account ID."
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:30
+msgid "Invalid log or account ID."
+msgstr ""
+
+#: admin/views/accounts.php:158
+msgid "Leave blank to keep the existing encrypted password."
+msgstr ""
+
+#: admin/views/settings.php:115
+msgid "Leave blank to use the site admin email."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:78
+msgid "Live test email"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:288
+msgid "Log entry deleted."
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:45
+msgid "Log entry has no valid recipient."
+msgstr ""
+
+#: admin/views/settings.php:30
+msgid "Log retention (days)"
+msgstr ""
+
+#: admin/views/settings.php:147
+msgid "Mail queue"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:59
+#: includes/class-vms-msg-providers.php:60
+#: includes/class-vms-msg-providers.php:61
+#: includes/class-vms-msg-providers.php:62
+#: includes/class-vms-msg-providers.php:63
+#: includes/class-vms-msg-providers.php:64
+#: includes/class-vms-msg-providers.php:65
+msgid "Mailbox address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:59
+#: includes/class-vms-msg-providers.php:60
+#: includes/class-vms-msg-providers.php:61
+#: includes/class-vms-msg-providers.php:62
+#: includes/class-vms-msg-providers.php:63
+#: includes/class-vms-msg-providers.php:64
+#: includes/class-vms-msg-providers.php:65
+msgid "Mailbox password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:42
+msgid "MailerLite"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:42
+msgid "MailerLite SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:42
+msgid "MailerLite SMTP username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:34
+msgid "MailerSend"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:34
+msgid "MailerSend SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:34
+msgid "MailerSend SMTP username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:27
+msgid "Mailgun"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:27
+msgid "Mailgun SMTP login for your domain"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:27
+msgid "Mailgun SMTP password"
+msgstr ""
+
+#: admin/views/accounts.php:96
+msgid "Mailgun region"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:32
+msgid "Mailjet"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:32
+msgid "Mailjet API key (username)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:32
+msgid "Mailjet secret key (password)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:41
+msgid "Mailtrap"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:41
+msgid "Mailtrap SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:41
+msgid "Mailtrap SMTP username"
+msgstr ""
+
+#: admin/views/accounts.php:116
+msgid "Mailtrap mode"
+msgstr ""
+
+#: admin/views/settings.php:210
+msgid "Maintenance"
+msgstr ""
+
+#: admin/views/accounts.php:280
+msgid "Make default"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:38
+msgid "Mandrill (Mailchimp)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:38
+msgid "Mandrill API key"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:27
+msgid "Mapped Mailgun host by region (port 587 TLS). Enter SMTP user + password."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:41
+msgid "Mapped Mailtrap host (live or sandbox). Enter SMTP user + password."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:51
+msgid "Mapped Zoho regional SMTP host. Username follows sender email."
+msgstr ""
+
+#: admin/views/accounts.php:63
+msgid "Mapped connection (auto-filled)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:25
+msgid "Mapped host from SES region (port 587 TLS). Enter IAM SMTP user + password."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:32
+msgid "Mapped: in-v3.mailjet.com:587 TLS. Enter API key + secret key."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:56
+msgid "Mapped: mail.gmx.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:60
+msgid "Mapped: mail.privateemail.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:36
+msgid "Mapped: mail.smtp2go.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:61
+msgid "Mapped: secure.emailsrvr.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:49
+msgid "Mapped: smtp-mail.outlook.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:31
+msgid "Mapped: smtp-relay.brevo.com:587 TLS. Enter your SMTP key as password."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:44
+msgid "Mapped: smtp-relay.sendinblue.com:587 TLS. Prefer Brevo for new setups."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:55
+msgid "Mapped: smtp.aol.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:62
+msgid "Mapped: smtp.dreamhost.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:37
+msgid "Mapped: smtp.elasticemail.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:52
+msgid "Mapped: smtp.fastmail.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:43
+msgid "Mapped: smtp.getresponse.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:47
+msgid "Mapped: smtp.gmail.com:587 TLS. Enter password only if username matches sender."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:59
+msgid "Mapped: smtp.hostinger.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:66
+msgid "Mapped: smtp.improvmx.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:63
+msgid "Mapped: smtp.ionos.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:54
+msgid "Mapped: smtp.mail.me.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:50
+msgid "Mapped: smtp.mail.yahoo.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:42
+msgid "Mapped: smtp.mailerlite.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:34
+msgid "Mapped: smtp.mailersend.net:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:38
+msgid "Mapped: smtp.mandrillapp.com:587 TLS. Password is your Mandrill API key."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:29
+msgid "Mapped: smtp.mx.cloudflare.net:465 SSL. Username is fixed; enter API token only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:48
+msgid "Mapped: smtp.office365.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:40
+msgid "Mapped: smtp.pepipost.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:28
+msgid "Mapped: smtp.postmarkapp.com:587 TLS. Enter Server API token only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:35
+msgid "Mapped: smtp.resend.com:465 SSL. Username is fixed; enter API key only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:26
+msgid "Mapped: smtp.sendgrid.net:587 TLS. Username is fixed; enter API key only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:39
+msgid "Mapped: smtp.socketlabs.com:587 TLS."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:33
+msgid "Mapped: smtp.sparkpostmail.com:587 TLS. Username is fixed; enter API key only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:65
+msgid "Mapped: smtp.titan.email:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:30
+msgid "Mapped: smtp.tosend.com:465 SSL. Username is fixed; enter API key only."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:53
+msgid "Mapped: smtp.yandex.com:465 SSL."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:64
+msgid "Mapped: smtpout.secureserver.net:465 SSL."
+msgstr ""
+
+#: admin/views/settings.php:39
+msgid "Message body in logs"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:48
+msgid "Microsoft 365 / Outlook"
+msgstr ""
+
+#: admin/views/page-header.php:16
+msgid "Multiple SMTP accounts, sender-based routing, email logs, and provider-aware resend."
+msgstr ""
+
+#: admin/views/accounts.php:214
+msgid "Name"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:60
+msgid "Namecheap Private Email"
+msgstr ""
+
+#: admin/views/dashboard.php:45
+msgid "No SMTP accounts configured yet."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:42
+msgid "No SMTP accounts yet. Add at least one account."
+msgstr ""
+
+#: admin/views/accounts.php:208
+msgid "No SMTP accounts yet. Pick a gateway and add your first account."
+msgstr ""
+
+#: includes/class-vms-msg-import-export.php:84
+msgid "No accounts found in import file."
+msgstr ""
+
+#: admin/views/settings.php:198
+msgid "No debug output yet. Enable SMTP debug mode and send a test email."
+msgstr ""
+
+#: admin/views/logs.php:116
+msgid "No email logs found."
+msgstr ""
+
+#: admin/views/dashboard.php:71
+msgid "No failures in the last 7 days."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:50
+msgid "No global default account set."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:57
+msgid "No known conflicting mail plugins active."
+msgstr ""
+
+#: admin/views/accounts.php:140
+msgid "None"
+msgstr ""
+
+#: admin/views/settings.php:44
+msgid "Omit body"
+msgstr ""
+
+#: admin/views/settings.php:93
+msgid "On SMTP send failure, retry via ordered fallback chain then global default"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:31
+msgid "OpenSSL available"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:33
+msgid "OpenSSL encryption is available."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:34
+msgid "OpenSSL is missing; password encryption will fail."
+msgstr ""
+
+#: admin/views/settings.php:227
+msgid "Optional: set Fallback priority (1 = first) for ordered limit failover."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:69
+msgid "Other SMTP"
+msgstr ""
+
+#: admin/views/accounts.php:82
+msgid "Outgoing mail whose From address matches this email uses this SMTP account."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:49
+msgid "Outlook.com / Hotmail / Live"
+msgstr ""
+
+#: admin/views/settings.php:152
+msgid "Pending queued emails: %d"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:40
+msgid "Pepipost / Netcore"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:40
+msgid "Pepipost / Netcore SMTP username"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:407
+msgid "Please choose a JSON file to import."
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:84
+msgid "Please provide a valid test recipient email."
+msgstr ""
+
+#: admin/views/settings.php:23
+msgid "Plugin settings"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:26
+msgid "Plugin tables"
+msgstr ""
+
+#: admin/views/accounts.php:66
+#: admin/views/accounts.php:130
+msgid "Port"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:28
+msgid "Postmark"
+msgstr ""
+
+#: admin/views/settings.php:57
+msgid "Privacy / GDPR"
+msgstr ""
+
+#: admin/views/settings.php:159
+msgid "Process queue now"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:444
+msgid "Processed %d queued email(s)."
+msgstr ""
+
+#: admin/views/settings.php:214
+msgid "Prune old logs now"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:521
+msgid "Pruned %d old log entries."
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Queue outgoing mail and send via WP-Cron (uses Action Scheduler when available)"
+msgstr ""
+
+#: admin/views/dashboard.php:35
+msgid "Queued emails"
+msgstr ""
+
+#: admin/views/settings.php:223
+msgid "Quick start checklist"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:61
+msgid "Rackspace Email"
+msgstr ""
+
+#: admin/views/settings.php:61
+msgid "Redact message bodies in logs (store “[redacted]” instead)"
+msgstr ""
+
+#: admin/views/logs.php:140
+#: admin/views/logs.php:159
+#: includes/class-vms-msg-providers.php:35
+msgid "Resend"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:35
+msgid "Resend API key"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:107
+#: admin/views/page-footer.php:17
+msgid "Resend email"
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:62
+msgid "Resend failed. Check the new log entry for the SMTP error details."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:112
+#: admin/views/page-footer.php:33
+msgid "Resend now"
+msgstr ""
+
+#: admin/views/settings.php:230
+msgid "Review privacy settings if you store personal data in message bodies."
+msgstr ""
+
+#: includes/class-vms-msg-import-export.php:128
+msgid "Row %1$d: %2$s"
+msgstr ""
+
+#: admin/views/settings.php:228
+msgid "Run Smoke test, then Check health and Test email."
+msgstr ""
+
+#: admin/views/settings.php:211
+msgid "Run log pruning now using the current retention setting."
+msgstr ""
+
+#: admin/views/settings.php:180
+msgid "Run smoke test"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:25
+msgid "SES SMTP password from IAM"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:25
+msgid "SES SMTP username from IAM"
+msgstr ""
+
+#: admin/views/accounts.php:86
+msgid "SES region"
+msgstr ""
+
+#: admin/views/page-header.php:30
+msgid "SMTP Accounts"
+msgstr ""
+
+#: admin/views/logs.php:126
+msgid "SMTP account"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:235
+msgid "SMTP account created."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:254
+msgid "SMTP account deleted."
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:312
+#: includes/class-vms-msg-health.php:26
+#: includes/class-vms-msg-resend.php:40
+#: includes/class-vms-msg-resend.php:89
+msgid "SMTP account not found."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:234
+msgid "SMTP account updated."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:39
+msgid "SMTP accounts configured"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:67
+msgid "SMTP connect/auth succeeded."
+msgstr ""
+
+#: includes/class-vms-msg-health.php:75
+msgid "SMTP connection and authentication succeeded."
+msgstr ""
+
+#: includes/class-vms-msg-health.php:69
+msgid "SMTP connection failed."
+msgstr ""
+
+#: admin/views/settings.php:196
+msgid "SMTP debug log"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:485
+msgid "SMTP debug log cleared."
+msgstr ""
+
+#: admin/views/settings.php:67
+msgid "SMTP debug mode"
+msgstr ""
+
+#: includes/class-vms-msg-alerts.php:44
+msgid "SMTP health check failed for “%1$s”.\n\nError: %2$s\n\nSite: %3$s"
+msgstr ""
+
+#: admin/views/accounts.php:126
+msgid "SMTP host"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:201
+msgid "SMTP host is required."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:44
+msgid "SMTP key"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:69
+msgid "SMTP password"
+msgstr ""
+
+#: admin/views/accounts.php:152
+#: includes/class-vms-msg-providers.php:40
+msgid "SMTP password / API key"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:263
+msgid "SMTP password is required for new accounts."
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:55
+msgid "SMTP plugin conflicts"
+msgstr ""
+
+#: includes/class-vms-msg-accounts.php:204
+msgid "SMTP port must be between 1 and 65535."
+msgstr ""
+
+#: admin/views/page-footer.php:23
+msgid "SMTP provider"
+msgstr ""
+
+#: admin/views/accounts.php:145
+#: includes/class-vms-msg-providers.php:69
+msgid "SMTP username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:36
+msgid "SMTP2GO"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:36
+msgid "SMTP2GO password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:36
+msgid "SMTP2GO username"
+msgstr ""
+
+#: admin/views/accounts.php:139
+msgid "SSL"
+msgstr ""
+
+#: admin/views/settings.php:142
+msgid "Save settings"
+msgstr ""
+
+#: admin/views/logs.php:80
+msgid "Search logs"
+msgstr ""
+
+#: admin/views/logs.php:81
+msgid "Search to, subject, error…"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:385
+msgid "Select a bulk action."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:106
+#: admin/views/page-footer.php:25
+msgid "Select an SMTP provider"
+msgstr ""
+
+#: admin/views/accounts.php:45
+msgid "Select email gateway"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:113
+msgid "Send test email to:"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:26
+msgid "SendGrid"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:26
+msgid "SendGrid API key"
+msgstr ""
+
+#: admin/views/accounts.php:215
+msgid "Sender"
+msgstr ""
+
+#: admin/views/accounts.php:79
+msgid "Sender email (routing key)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:44
+msgid "Sendinblue (legacy)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:183
+msgid "Sending / Live (live.smtp.mailtrap.io)"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:108
+msgid "Sending…"
+msgstr ""
+
+#: admin/views/logs.php:58
+#: admin/views/logs.php:147
+msgid "Sent"
+msgstr ""
+
+#: admin/views/dashboard.php:30
+msgid "Sent / failed (30 days)"
+msgstr ""
+
+#: admin/views/dashboard.php:26
+msgid "Sent / failed (7 days)"
+msgstr ""
+
+#: admin/views/dashboard.php:18
+#: admin/views/dashboard.php:51
+msgid "Sent today"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:28
+msgid "Server API token"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:28
+msgid "Server API token (same as password)"
+msgstr ""
+
+#: admin/views/page-header.php:36
+msgid "Settings"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:339
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-vms-msg-import-export.php:98
+msgid "Skipped %s — sender already exists."
+msgstr ""
+
+#: admin/views/settings.php:165
+msgid "Smoke test"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:472
+msgid "Smoke test passed. See details below."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:473
+msgid "Smoke test reported failures. See details below."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:39
+msgid "SocketLabs"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:39
+msgid "SocketLabs SMTP password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:39
+msgid "SocketLabs server ID / username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:33
+msgid "SparkPost"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:33
+msgid "SparkPost API key"
+msgstr ""
+
+#: admin/views/logs.php:55
+#: admin/views/logs.php:125
+msgid "Status"
+msgstr ""
+
+#: admin/views/settings.php:42
+msgid "Store full body"
+msgstr ""
+
+#: admin/views/accounts.php:159
+msgid "Stored encrypted with OpenSSL using WordPress salts."
+msgstr ""
+
+#: admin/views/logs.php:124
+msgid "Subject"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:109
+msgid "Success"
+msgstr ""
+
+#: admin/views/accounts.php:138
+msgid "TLS"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:142
+msgid "Tables were missing; schema repair was attempted. Re-run the smoke test."
+msgstr ""
+
+#: admin/views/accounts.php:292
+msgid "Test email"
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:118
+msgid "Test email failed to send. Check Email Logs for the error message."
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:309
+msgid "Test email sent. Check the inbox and Email Logs."
+msgstr ""
+
+#: admin/views/settings.php:177
+msgid "Test recipient"
+msgstr ""
+
+#: includes/class-vms-msg-smoke-test.php:81
+msgid "Test sent to %s. Check Email Logs."
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:100
+msgid "This is a test email from %1$s.\n\nSMTP account: %2$s\nSent at: %3$s\n"
+msgstr ""
+
+#: admin/views/settings.php:135
+msgid "Threshold"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:65
+msgid "Titan Email"
+msgstr ""
+
+#: admin/views/logs.php:123
+msgid "To"
+msgstr ""
+
+#: admin/views/logs.php:76
+msgid "To date"
+msgstr ""
+
+#: admin/views/dashboard.php:43
+msgid "Today’s usage vs limits"
+msgstr ""
+
+#: admin/views/dashboard.php:69
+msgid "Top failing accounts (7 days)"
+msgstr ""
+
+#: admin/views/settings.php:50
+msgid "Truncate after (characters)"
+msgstr ""
+
+#: admin/views/settings.php:43
+msgid "Truncate body"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:157
+msgid "United States (smtp.mailgun.org)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:169
+msgid "United States (smtp.zoho.com)"
+msgstr ""
+
+#: admin/views/accounts.php:269
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-vms-msg-mailer.php:445
+msgid "Unknown mail failure."
+msgstr ""
+
+#: admin/views/dashboard.php:60
+msgid "Unlimited"
+msgstr ""
+
+#: admin/views/accounts.php:198
+msgid "Update account"
+msgstr ""
+
+#: admin/views/accounts.php:216
+msgid "Usage today"
+msgstr ""
+
+#: admin/views/accounts.php:192
+msgid "Use as fallback when no sender match is found"
+msgstr ""
+
+#: admin/views/settings.php:53
+msgid "Used when “Truncate body” is selected."
+msgstr ""
+
+#: admin/views/accounts.php:68
+msgid "Username"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:55
+msgid "Usually your AOL address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:52
+msgid "Usually your Fastmail address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:56
+msgid "Usually your GMX address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:47
+msgid "Usually your Gmail address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:48
+msgid "Usually your Microsoft 365 address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:49
+msgid "Usually your Outlook.com address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:50
+msgid "Usually your Yahoo address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:53
+msgid "Usually your Yandex address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:51
+msgid "Usually your Zoho address (auto-filled from sender)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:54
+msgid "Usually your iCloud address (auto-filled from sender)"
+msgstr ""
+
+#: admin/views/page-header.php:14
+msgid "VMS Elements Multi Mailer"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:50
+#: admin/class-vms-msg-admin.php:51
+msgid "VMS Multi Mailer"
+msgstr ""
+
+#: includes/class-vms-msg-conflicts.php:87
+msgid "VMS Multi Mailer detected other active mail plugins (%s). Only one plugin should control PHPMailer/SMTP. Disable the others to avoid conflicts."
+msgstr ""
+
+#: admin/views/settings.php:166
+msgid "Verify tables, OpenSSL, accounts, conflicts, and default-account health. Optionally send a live test email."
+msgstr ""
+
+#: admin/views/settings.php:218
+msgid "WP-CLI: wp vms-msg test | wp vms-msg prune | wp vms-msg health"
+msgstr ""
+
+#: admin/views/settings.php:63
+msgid "When enabled, resend cannot restore the original body. Subject and recipients are still logged."
+msgstr ""
+
+#: includes/class-vms-msg-mailer.php:313
+msgid "WordPress default (no SMTP account)"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:50
+msgid "Yahoo Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:50
+msgid "Yahoo app password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:53
+msgid "Yandex Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:53
+msgid "Yandex password / app password"
+msgstr ""
+
+#: admin/class-vms-msg-admin.php:129
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:51
+msgid "Zoho Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:51
+msgid "Zoho password / app password"
+msgstr ""
+
+#: admin/views/accounts.php:106
+msgid "Zoho region"
+msgstr ""
+
+#: includes/class-vms-msg-alerts.php:79
+msgid "[VMS Multi Mailer] Email failure spike detected"
+msgstr ""
+
+#: includes/class-vms-msg-alerts.php:38
+msgid "[VMS Multi Mailer] Health check failed: %s"
+msgstr ""
+
+#: includes/class-vms-msg-resend.php:95
+msgid "[VMS Multi Mailer] Test email — %s"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:54
+msgid "iCloud Mail"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:54
+msgid "iCloud app-specific password"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:30
+msgid "toSend"
+msgstr ""
+
+#: includes/class-vms-msg-providers.php:30
+msgid "toSend API key (tsend_…)"
+msgstr ""
+
+#: includes/class-vms-msg-queue.php:249
+msgid "wp_mail returned false"
+msgstr ""
+
+#: admin/views/accounts.php:260
+msgid "—"
+msgstr ""

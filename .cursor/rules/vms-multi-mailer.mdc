@@ -1,0 +1,12 @@
+---
+description: VMS Multi Mailer WordPress plugin standards (shared via git)
+alwaysApply: true
+---
+
+# VMS Elements Multi Mailer
+
+- Read and follow `AGENTS.md` for project overview, slug, and conventions.
+- WordPress plugin: prefix with `vms_msg_` / `VMS_MSG_`; text domain `vms-elements-multiple-smtp-email-gateway`.
+- Sanitize input, escape output, use nonces and capability checks.
+- Never commit SMTP passwords, API keys, or other secrets.
+- Main bootstrap file: `vms-elements-multiple-smtp-email-gateway.php`.

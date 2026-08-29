@@ -35,6 +35,12 @@ wp-config.php
 # htaccess
 /.htaccess
 
+# Claude / Cursor — keep shared agent files in git; ignore machine-local only
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/projects/
+.cursor/*.log
+
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
